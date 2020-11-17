@@ -11,13 +11,13 @@
         <copied_from_name/>
         <description/>
         <internal_name>safety_issue_approval</internal_name>
-        <label_cache>[{"name":"b47a081c-c5fd-4d22-a2f9-08495f293050.table_name","label":"5➛Issue Table","reference":"x_0720_safety_issue","reference_display":"Issue","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b47a081c-c5fd-4d22-a2f9-08495f293050.record","label":"5➛Issue Record","reference":"x_0720_safety_issue","reference_display":"Issue","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c8963958-2e80-4d97-8152-7dc98d42ac5f.table_name","label":"4➛Issue Table","reference":"x_0720_safety_issue","reference_display":"Issue","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c8963958-2e80-4d97-8152-7dc98d42ac5f.record","label":"4➛Issue Record","reference":"x_0720_safety_issue","reference_display":"Issue","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a28e4016-1e5d-445c-9a71-59f8af3daf2a.table_name","label":"3➛Issue Table","reference":"x_0720_safety_issue","reference_display":"Issue","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a28e4016-1e5d-445c-9a71-59f8af3daf2a.record","label":"3➛Issue Record","reference":"x_0720_safety_issue","reference_display":"Issue","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Updated_1.current.opened_by","label":"Trigger➛Issue Record➛Opened by","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_0720_safety_issue","column_name":"opened_by"},{"name":"Updated_1.current","label":"Trigger➛Issue Record","reference":"x_0720_safety_issue","reference_display":"Issue","type":"reference","base_type":"reference","attributes":{}},{"name":"1bee89ea-a094-4fdd-9506-13921567bdd0.approval_state","label":"1➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
-        <latest_snapshot>512ea7be2f982410b6cf309cf699b67c</latest_snapshot>
+        <label_cache>[{"name":"Updated_1.current.number","label":"Trigger➛Issue Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_0720_safety_issue","column_name":"number"},{"name":"b47a081c-c5fd-4d22-a2f9-08495f293050.table_name","label":"6➛Issue Table","reference":"x_0720_safety_issue","reference_display":"Issue","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b47a081c-c5fd-4d22-a2f9-08495f293050.record","label":"6➛Issue Record","reference":"x_0720_safety_issue","reference_display":"Issue","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c8963958-2e80-4d97-8152-7dc98d42ac5f.table_name","label":"4➛Issue Table","reference":"x_0720_safety_issue","reference_display":"Issue","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c8963958-2e80-4d97-8152-7dc98d42ac5f.record","label":"4➛Issue Record","reference":"x_0720_safety_issue","reference_display":"Issue","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a28e4016-1e5d-445c-9a71-59f8af3daf2a.table_name","label":"3➛Issue Table","reference":"x_0720_safety_issue","reference_display":"Issue","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a28e4016-1e5d-445c-9a71-59f8af3daf2a.record","label":"3➛Issue Record","reference":"x_0720_safety_issue","reference_display":"Issue","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Updated_1.current.opened_by","label":"Trigger➛Issue Record➛Opened by","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_0720_safety_issue","column_name":"opened_by"},{"name":"Updated_1.current","label":"Trigger➛Issue Record","reference":"x_0720_safety_issue","reference_display":"Issue","type":"reference","base_type":"reference","attributes":{}},{"name":"1bee89ea-a094-4fdd-9506-13921567bdd0.approval_state","label":"1➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <latest_snapshot>a8b867f62f982410b6cf309cf699b6c3</latest_snapshot>
         <master_snapshot>a8b867f62f982410b6cf309cf699b6c3</master_snapshot>
         <name>Safety Issue Approval</name>
         <natlang/>
         <outputs/>
-        <remote_trigger_id>0ffda3be2f982410b6cf309cf699b61b</remote_trigger_id>
+        <remote_trigger_id>3526a4ed2f602010b6cf309cf699b638</remote_trigger_id>
         <run_as>user</run_as>
         <run_with_roles/>
         <sc_callable>false</sc_callable>
@@ -30,7 +30,7 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>f1542f722f982410b6cf309cf699b6be</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>Safety Issue Approval</sys_name>
         <sys_overrides/>
         <sys_package display_value="Safety" source="x_0720_safety">8dfc9f7a2f182410b6cf309cf699b613</sys_package>
@@ -39,7 +39,7 @@
         <sys_scope display_value="Safety">8dfc9f7a2f182410b6cf309cf699b613</sys_scope>
         <sys_update_name>sys_hub_flow_f1542f722f982410b6cf309cf699b6be</sys_update_name>
         <sys_updated_by>jbochnak</sys_updated_by>
-        <sys_updated_on>2020-11-09 19:59:32</sys_updated_on>
+        <sys_updated_on>2020-11-17 18:29:46</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_variable_value action="delete_multiple" query="document_key=f1542f722f982410b6cf309cf699b6be"/>
@@ -58,10 +58,10 @@
         <run_when_user_setting>any</run_when_user_setting>
         <sys_class_name>sys_flow_record_trigger</sys_class_name>
         <sys_created_by>jbochnak</sys_created_by>
-        <sys_created_on>2020-11-09 19:59:31</sys_created_on>
+        <sys_created_on>2020-11-17 18:29:44</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
-        <sys_id>0ffda3be2f982410b6cf309cf699b61b</sys_id>
+        <sys_id>3526a4ed2f602010b6cf309cf699b638</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
@@ -71,35 +71,35 @@
         <sys_scope display_value="Safety">8dfc9f7a2f182410b6cf309cf699b613</sys_scope>
         <sys_update_name/>
         <sys_updated_by>jbochnak</sys_updated_by>
-        <sys_updated_on>2020-11-09 19:59:31</sys_updated_on>
+        <sys_updated_on>2020-11-17 18:29:44</sys_updated_on>
         <table>x_0720_safety_issue</table>
     </sys_flow_record_trigger>
     <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
         <active>true</active>
-        <data>{"table":"sys_trigger_runner_mapping","id":"87fda3be2f982410b6cf309cf699b61c","name":"trigger_runner","type":"java.util.Collections$UnmodifiableMap"}</data>
+        <data>{"table":"sys_trigger_runner_mapping","id":"fd26a4ed2f602010b6cf309cf699b638","name":"trigger_runner","type":"java.util.Collections$UnmodifiableMap"}</data>
         <identifier>f1542f722f982410b6cf309cf699b6be</identifier>
         <runner>FDTriggerRunner</runner>
         <sys_created_by>jbochnak</sys_created_by>
-        <sys_created_on>2020-11-09 19:59:31</sys_created_on>
-        <sys_id>87fda3be2f982410b6cf309cf699b61c</sys_id>
+        <sys_created_on>2020-11-17 18:29:44</sys_created_on>
+        <sys_id>fd26a4ed2f602010b6cf309cf699b638</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>jbochnak</sys_updated_by>
-        <sys_updated_on>2020-11-09 19:59:31</sys_updated_on>
-        <trigger display_value="">0ffda3be2f982410b6cf309cf699b61b</trigger>
+        <sys_updated_on>2020-11-17 18:29:44</sys_updated_on>
+        <trigger display_value="">3526a4ed2f602010b6cf309cf699b638</trigger>
     </sys_trigger_runner_mapping>
     <sys_json_chunk action="INSERT_OR_UPDATE">
         <data>H4sIAAAAAAAAAGXLWwqAIBBA0b3MdytwKxGD5fggGUFHLKK99yAo6Pce7ga5MtqYGgYGBaOeZpdTZQPdTc0TYy2UMYYioPrh0wuJBHbXl8T/jpc1r48mRlqE2JA5u9WxEOwH5v2lw4YAAAA=</data>
-        <document_id>87fda3be2f982410b6cf309cf699b61c</document_id>
+        <document_id>fd26a4ed2f602010b6cf309cf699b638</document_id>
         <field>trigger_runner</field>
         <length>144</length>
         <position>0</position>
         <source_table>sys_trigger_runner_mapping</source_table>
         <sys_created_by>jbochnak</sys_created_by>
-        <sys_created_on>2020-11-09 19:59:31</sys_created_on>
-        <sys_id>0ffda3be2f982410b6cf309cf699b61c</sys_id>
+        <sys_created_on>2020-11-17 18:29:44</sys_created_on>
+        <sys_id>b526a4ed2f602010b6cf309cf699b639</sys_id>
     </sys_json_chunk>
-    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=f1542f722f982410b6cf309cf699b6be^sys_idNOT IN87fda3be2f982410b6cf309cf699b61c"/>
-    <sys_hub_flow_component action="delete_multiple" query="flow=f1542f722f982410b6cf309cf699b6be^sys_idNOT IN19976f762f982410b6cf309cf699b652,21976f762f982410b6cf309cf699b679,32edaf7e2f982410b6cf309cf699b663,e1976f762f982410b6cf309cf699b671,f2edaf7e2f982410b6cf309cf699b651"/>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=f1542f722f982410b6cf309cf699b6be^sys_idNOT INfd26a4ed2f602010b6cf309cf699b638"/>
+    <sys_hub_flow_component action="delete_multiple" query="flow=f1542f722f982410b6cf309cf699b6be^sys_idNOT IN19976f762f982410b6cf309cf699b652,21976f762f982410b6cf309cf699b679,32edaf7e2f982410b6cf309cf699b663,5416a0ed2f602010b6cf309cf699b635,e1976f762f982410b6cf309cf699b671,e816a0ed2f602010b6cf309cf699b63f,f2edaf7e2f982410b6cf309cf699b651"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -116,7 +116,7 @@
         <sys_created_on>2020-11-09 19:31:34</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>19976f762f982410b6cf309cf699b652</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
@@ -124,7 +124,7 @@
         <sys_scope display_value="Safety">8dfc9f7a2f182410b6cf309cf699b613</sys_scope>
         <sys_update_name/>
         <sys_updated_by>jbochnak</sys_updated_by>
-        <sys_updated_on>2020-11-09 20:00:18</sys_updated_on>
+        <sys_updated_on>2020-11-17 18:29:45</sys_updated_on>
         <ui_id>1bee89ea-a094-4fdd-9506-13921567bdd0</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=19976f762f982410b6cf309cf699b652"/>
@@ -273,7 +273,7 @@
         <sys_created_on>2020-11-09 19:31:34</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>21976f762f982410b6cf309cf699b679</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
@@ -281,7 +281,7 @@
         <sys_scope display_value="Safety">8dfc9f7a2f182410b6cf309cf699b613</sys_scope>
         <sys_update_name/>
         <sys_updated_by>jbochnak</sys_updated_by>
-        <sys_updated_on>2020-11-09 20:00:18</sys_updated_on>
+        <sys_updated_on>2020-11-17 18:29:46</sys_updated_on>
         <ui_id>a28e4016-1e5d-445c-9a71-59f8af3daf2a</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=21976f762f982410b6cf309cf699b679"/>
@@ -359,14 +359,14 @@
         <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
         <display_text/>
         <flow display_value="Safety Issue Approval">f1542f722f982410b6cf309cf699b6be</flow>
-        <order>5</order>
+        <order>6</order>
         <parent_ui_id>b1559f93-024e-4b70-800a-e8f544268884</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>jbochnak</sys_created_by>
         <sys_created_on>2020-11-09 19:59:14</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>32edaf7e2f982410b6cf309cf699b663</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
@@ -374,7 +374,7 @@
         <sys_scope display_value="Safety">8dfc9f7a2f182410b6cf309cf699b613</sys_scope>
         <sys_update_name/>
         <sys_updated_by>jbochnak</sys_updated_by>
-        <sys_updated_on>2020-11-09 20:00:18</sys_updated_on>
+        <sys_updated_on>2020-11-17 18:29:46</sys_updated_on>
         <ui_id>b47a081c-c5fd-4d22-a2f9-08495f293050</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=32edaf7e2f982410b6cf309cf699b663"/>
@@ -443,6 +443,47 @@
         <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
         <value/>
     </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Log">5bc1bcc6531003003bf1d9109ec587d4</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Safety Issue Approval">f1542f722f982410b6cf309cf699b6be</flow>
+        <order>4</order>
+        <parent_ui_id>2c99b288-937b-488d-a0ef-bbd36f67ee2a</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>jbochnak</sys_created_by>
+        <sys_created_on>2020-11-17 18:29:22</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>5416a0ed2f602010b6cf309cf699b635</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Safety">8dfc9f7a2f182410b6cf309cf699b613</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jbochnak</sys_updated_by>
+        <sys_updated_on>2020-11-17 18:29:46</sys_updated_on>
+        <ui_id>4e09417a-2032-4218-9fba-80119c627497</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=5416a0ed2f602010b6cf309cf699b635"/>
+    <sys_element_mapping action="delete_multiple" query="id=5416a0ed2f602010b6cf309cf699b635"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>log_message</field>
+        <id>5416a0ed2f602010b6cf309cf699b635</id>
+        <sys_created_by>jbochnak</sys_created_by>
+        <sys_created_on>2020-11-17 18:29:22</sys_created_on>
+        <sys_id>ec16a0ed2f602010b6cf309cf699b636</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jbochnak</sys_updated_by>
+        <sys_updated_on>2020-11-17 18:29:22</sys_updated_on>
+        <table>var__m_sys_hub_action_input_5bc1bcc6531003003bf1d9109ec587d4</table>
+        <value>Issue record  {{Updated_1.current.number}}  approved</value>
+    </sys_element_mapping>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">29976f762f982410b6cf309cf699b657</block>
         <comment/>
@@ -464,7 +505,7 @@
         <sys_created_on>2020-11-09 19:31:34</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>e1976f762f982410b6cf309cf699b671</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
@@ -472,7 +513,7 @@
         <sys_scope display_value="Safety">8dfc9f7a2f182410b6cf309cf699b613</sys_scope>
         <sys_update_name/>
         <sys_updated_by>jbochnak</sys_updated_by>
-        <sys_updated_on>2020-11-09 19:59:32</sys_updated_on>
+        <sys_updated_on>2020-11-17 18:29:45</sys_updated_on>
         <ui_id>2c99b288-937b-488d-a0ef-bbd36f67ee2a</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -517,6 +558,47 @@
         <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
         <value/>
     </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Log">5bc1bcc6531003003bf1d9109ec587d4</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Safety Issue Approval">f1542f722f982410b6cf309cf699b6be</flow>
+        <order>7</order>
+        <parent_ui_id>b1559f93-024e-4b70-800a-e8f544268884</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>jbochnak</sys_created_by>
+        <sys_created_on>2020-11-17 18:29:23</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>e816a0ed2f602010b6cf309cf699b63f</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Safety">8dfc9f7a2f182410b6cf309cf699b613</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jbochnak</sys_updated_by>
+        <sys_updated_on>2020-11-17 18:29:46</sys_updated_on>
+        <ui_id>ff822803-644c-4a3c-ad01-fb154f9bc2c3</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=e816a0ed2f602010b6cf309cf699b63f"/>
+    <sys_element_mapping action="delete_multiple" query="id=e816a0ed2f602010b6cf309cf699b63f"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>log_message</field>
+        <id>e816a0ed2f602010b6cf309cf699b63f</id>
+        <sys_created_by>jbochnak</sys_created_by>
+        <sys_created_on>2020-11-17 18:29:23</sys_created_on>
+        <sys_id>a816a0ed2f602010b6cf309cf699b640</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jbochnak</sys_updated_by>
+        <sys_updated_on>2020-11-17 18:29:23</sys_updated_on>
+        <table>var__m_sys_hub_action_input_5bc1bcc6531003003bf1d9109ec587d4</table>
+        <value>Issue record {{Updated_1.current.number}} rejected</value>
+    </sys_element_mapping>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">3aedaf7e2f982410b6cf309cf699b650</block>
         <comment/>
@@ -528,7 +610,7 @@
         <flow display_value="Safety Issue Approval">f1542f722f982410b6cf309cf699b6be</flow>
         <inputs/>
         <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
-        <order>4</order>
+        <order>5</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id/>
@@ -537,7 +619,7 @@
         <sys_created_on>2020-11-09 19:59:14</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>f2edaf7e2f982410b6cf309cf699b651</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
@@ -545,7 +627,7 @@
         <sys_scope display_value="Safety">8dfc9f7a2f182410b6cf309cf699b613</sys_scope>
         <sys_update_name/>
         <sys_updated_by>jbochnak</sys_updated_by>
-        <sys_updated_on>2020-11-09 19:59:32</sys_updated_on>
+        <sys_updated_on>2020-11-17 18:29:46</sys_updated_on>
         <ui_id>b1559f93-024e-4b70-800a-e8f544268884</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -563,7 +645,7 @@
         <sys_created_on>2020-11-09 19:31:33</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>59976f762f982410b6cf309cf699b63e</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
@@ -571,7 +653,7 @@
         <sys_scope display_value="Safety">8dfc9f7a2f182410b6cf309cf699b613</sys_scope>
         <sys_update_name/>
         <sys_updated_by>jbochnak</sys_updated_by>
-        <sys_updated_on>2020-11-09 19:59:32</sys_updated_on>
+        <sys_updated_on>2020-11-17 18:29:45</sys_updated_on>
         <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -703,7 +785,7 @@
         <sys_created_on>2020-11-09 19:31:33</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>99976f762f982410b6cf309cf699b629</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
@@ -711,7 +793,7 @@
         <sys_scope display_value="Safety">8dfc9f7a2f182410b6cf309cf699b613</sys_scope>
         <sys_update_name/>
         <sys_updated_by>jbochnak</sys_updated_by>
-        <sys_updated_on>2020-11-09 19:59:32</sys_updated_on>
+        <sys_updated_on>2020-11-17 18:29:45</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -727,7 +809,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FD56fd63be9a9824100534b5561365245e,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDb82664ede46020102a02addd18bc746f,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -786,7 +868,7 @@
         <sys_created_on>2020-11-09 19:31:33</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>9d976f762f982410b6cf309cf699b630</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
@@ -794,7 +876,7 @@
         <sys_scope display_value="Safety">8dfc9f7a2f182410b6cf309cf699b613</sys_scope>
         <sys_update_name/>
         <sys_updated_by>jbochnak</sys_updated_by>
-        <sys_updated_on>2020-11-09 19:59:32</sys_updated_on>
+        <sys_updated_on>2020-11-17 18:29:45</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -869,7 +951,7 @@
         <sys_created_on>2020-11-09 19:31:33</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>9d976f762f982410b6cf309cf699b636</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
@@ -877,7 +959,7 @@
         <sys_scope display_value="Safety">8dfc9f7a2f182410b6cf309cf699b613</sys_scope>
         <sys_update_name/>
         <sys_updated_by>jbochnak</sys_updated_by>
-        <sys_updated_on>2020-11-09 19:59:32</sys_updated_on>
+        <sys_updated_on>2020-11-17 18:29:45</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -889,7 +971,7 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
-    <sys_hub_action_instance action="delete_multiple" query="flow=f1542f722f982410b6cf309cf699b6be^sys_idNOT IN19976f762f982410b6cf309cf699b652,21976f762f982410b6cf309cf699b679,32edaf7e2f982410b6cf309cf699b663"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=f1542f722f982410b6cf309cf699b6be^sys_idNOT IN19976f762f982410b6cf309cf699b652,21976f762f982410b6cf309cf699b679,32edaf7e2f982410b6cf309cf699b663,5416a0ed2f602010b6cf309cf699b635,e816a0ed2f602010b6cf309cf699b63f"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -906,7 +988,7 @@
         <sys_created_on>2020-11-09 19:31:34</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>19976f762f982410b6cf309cf699b652</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
@@ -914,7 +996,7 @@
         <sys_scope display_value="Safety">8dfc9f7a2f182410b6cf309cf699b613</sys_scope>
         <sys_update_name/>
         <sys_updated_by>jbochnak</sys_updated_by>
-        <sys_updated_on>2020-11-09 20:00:18</sys_updated_on>
+        <sys_updated_on>2020-11-17 18:29:45</sys_updated_on>
         <ui_id>1bee89ea-a094-4fdd-9506-13921567bdd0</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=19976f762f982410b6cf309cf699b652"/>
@@ -1063,7 +1145,7 @@
         <sys_created_on>2020-11-09 19:31:34</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>21976f762f982410b6cf309cf699b679</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
@@ -1071,7 +1153,7 @@
         <sys_scope display_value="Safety">8dfc9f7a2f182410b6cf309cf699b613</sys_scope>
         <sys_update_name/>
         <sys_updated_by>jbochnak</sys_updated_by>
-        <sys_updated_on>2020-11-09 20:00:18</sys_updated_on>
+        <sys_updated_on>2020-11-17 18:29:46</sys_updated_on>
         <ui_id>a28e4016-1e5d-445c-9a71-59f8af3daf2a</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=21976f762f982410b6cf309cf699b679"/>
@@ -1149,14 +1231,14 @@
         <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
         <display_text/>
         <flow display_value="Safety Issue Approval">f1542f722f982410b6cf309cf699b6be</flow>
-        <order>5</order>
+        <order>6</order>
         <parent_ui_id>b1559f93-024e-4b70-800a-e8f544268884</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>jbochnak</sys_created_by>
         <sys_created_on>2020-11-09 19:59:14</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>32edaf7e2f982410b6cf309cf699b663</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
@@ -1164,7 +1246,7 @@
         <sys_scope display_value="Safety">8dfc9f7a2f182410b6cf309cf699b613</sys_scope>
         <sys_update_name/>
         <sys_updated_by>jbochnak</sys_updated_by>
-        <sys_updated_on>2020-11-09 20:00:18</sys_updated_on>
+        <sys_updated_on>2020-11-17 18:29:46</sys_updated_on>
         <ui_id>b47a081c-c5fd-4d22-a2f9-08495f293050</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=32edaf7e2f982410b6cf309cf699b663"/>
@@ -1233,6 +1315,88 @@
         <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
         <value/>
     </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Log">5bc1bcc6531003003bf1d9109ec587d4</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Safety Issue Approval">f1542f722f982410b6cf309cf699b6be</flow>
+        <order>4</order>
+        <parent_ui_id>2c99b288-937b-488d-a0ef-bbd36f67ee2a</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>jbochnak</sys_created_by>
+        <sys_created_on>2020-11-17 18:29:22</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>5416a0ed2f602010b6cf309cf699b635</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Safety">8dfc9f7a2f182410b6cf309cf699b613</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jbochnak</sys_updated_by>
+        <sys_updated_on>2020-11-17 18:29:46</sys_updated_on>
+        <ui_id>4e09417a-2032-4218-9fba-80119c627497</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=5416a0ed2f602010b6cf309cf699b635"/>
+    <sys_element_mapping action="delete_multiple" query="id=5416a0ed2f602010b6cf309cf699b635"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>log_message</field>
+        <id>5416a0ed2f602010b6cf309cf699b635</id>
+        <sys_created_by>jbochnak</sys_created_by>
+        <sys_created_on>2020-11-17 18:29:22</sys_created_on>
+        <sys_id>ec16a0ed2f602010b6cf309cf699b636</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jbochnak</sys_updated_by>
+        <sys_updated_on>2020-11-17 18:29:22</sys_updated_on>
+        <table>var__m_sys_hub_action_input_5bc1bcc6531003003bf1d9109ec587d4</table>
+        <value>Issue record  {{Updated_1.current.number}}  approved</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Log">5bc1bcc6531003003bf1d9109ec587d4</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Safety Issue Approval">f1542f722f982410b6cf309cf699b6be</flow>
+        <order>7</order>
+        <parent_ui_id>b1559f93-024e-4b70-800a-e8f544268884</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>jbochnak</sys_created_by>
+        <sys_created_on>2020-11-17 18:29:23</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>e816a0ed2f602010b6cf309cf699b63f</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Safety">8dfc9f7a2f182410b6cf309cf699b613</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jbochnak</sys_updated_by>
+        <sys_updated_on>2020-11-17 18:29:46</sys_updated_on>
+        <ui_id>ff822803-644c-4a3c-ad01-fb154f9bc2c3</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=e816a0ed2f602010b6cf309cf699b63f"/>
+    <sys_element_mapping action="delete_multiple" query="id=e816a0ed2f602010b6cf309cf699b63f"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>log_message</field>
+        <id>e816a0ed2f602010b6cf309cf699b63f</id>
+        <sys_created_by>jbochnak</sys_created_by>
+        <sys_created_on>2020-11-17 18:29:23</sys_created_on>
+        <sys_id>a816a0ed2f602010b6cf309cf699b640</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jbochnak</sys_updated_by>
+        <sys_updated_on>2020-11-17 18:29:23</sys_updated_on>
+        <table>var__m_sys_hub_action_input_5bc1bcc6531003003bf1d9109ec587d4</table>
+        <value>Issue record {{Updated_1.current.number}} rejected</value>
+    </sys_element_mapping>
     <sys_hub_flow_logic action="delete_multiple" query="flow=f1542f722f982410b6cf309cf699b6be^sys_idNOT INe1976f762f982410b6cf309cf699b671,f2edaf7e2f982410b6cf309cf699b651"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">29976f762f982410b6cf309cf699b657</block>
@@ -1255,7 +1419,7 @@
         <sys_created_on>2020-11-09 19:31:34</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>e1976f762f982410b6cf309cf699b671</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
@@ -1263,7 +1427,7 @@
         <sys_scope display_value="Safety">8dfc9f7a2f182410b6cf309cf699b613</sys_scope>
         <sys_update_name/>
         <sys_updated_by>jbochnak</sys_updated_by>
-        <sys_updated_on>2020-11-09 19:59:32</sys_updated_on>
+        <sys_updated_on>2020-11-17 18:29:45</sys_updated_on>
         <ui_id>2c99b288-937b-488d-a0ef-bbd36f67ee2a</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1319,7 +1483,7 @@
         <flow display_value="Safety Issue Approval">f1542f722f982410b6cf309cf699b6be</flow>
         <inputs/>
         <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
-        <order>4</order>
+        <order>5</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id/>
@@ -1328,7 +1492,7 @@
         <sys_created_on>2020-11-09 19:59:14</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>f2edaf7e2f982410b6cf309cf699b651</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
@@ -1336,7 +1500,7 @@
         <sys_scope display_value="Safety">8dfc9f7a2f182410b6cf309cf699b613</sys_scope>
         <sys_update_name/>
         <sys_updated_by>jbochnak</sys_updated_by>
-        <sys_updated_on>2020-11-09 19:59:32</sys_updated_on>
+        <sys_updated_on>2020-11-17 18:29:46</sys_updated_on>
         <ui_id>b1559f93-024e-4b70-800a-e8f544268884</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1423,14 +1587,14 @@
         <binding_strategy>com.snc.process_flow.engine.binding.OncePerUniqueChange</binding_strategy>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"51b8a7f62f982410b6cf309cf699b64c","name":"plan"}}</plan>
         <plan_id>f1542f722f982410b6cf309cf699b6be</plan_id>
-        <snapshot>512ea7be2f982410b6cf309cf699b67c</snapshot>
+        <snapshot>a8b867f62f982410b6cf309cf699b6c3</snapshot>
         <sys_class_name>sys_flow_trigger_plan</sys_class_name>
         <sys_created_by>jbochnak</sys_created_by>
         <sys_created_on>2020-11-09 19:36:28</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>51b8a7f62f982410b6cf309cf699b64c</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -1439,8 +1603,8 @@
         <sys_scope display_value="Safety">8dfc9f7a2f182410b6cf309cf699b613</sys_scope>
         <sys_update_name/>
         <sys_updated_by>jbochnak</sys_updated_by>
-        <sys_updated_on>2020-11-09 19:59:31</sys_updated_on>
-        <trigger display_value="">0ffda3be2f982410b6cf309cf699b61b</trigger>
+        <sys_updated_on>2020-11-17 18:29:44</sys_updated_on>
+        <trigger display_value="">3526a4ed2f602010b6cf309cf699b638</trigger>
     </sys_flow_trigger_plan>
     <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -1453,7 +1617,7 @@
         <copied_from_name/>
         <description/>
         <internal_name>safety_issue_approval</internal_name>
-        <label_cache>[{"name":"b47a081c-c5fd-4d22-a2f9-08495f293050.table_name","label":"5➛Issue Table","reference":"x_0720_safety_issue","reference_display":"Issue","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b47a081c-c5fd-4d22-a2f9-08495f293050.record","label":"5➛Issue Record","reference":"x_0720_safety_issue","reference_display":"Issue","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c8963958-2e80-4d97-8152-7dc98d42ac5f.table_name","label":"4➛Issue Table","reference":"x_0720_safety_issue","reference_display":"Issue","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c8963958-2e80-4d97-8152-7dc98d42ac5f.record","label":"4➛Issue Record","reference":"x_0720_safety_issue","reference_display":"Issue","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a28e4016-1e5d-445c-9a71-59f8af3daf2a.table_name","label":"3➛Issue Table","reference":"x_0720_safety_issue","reference_display":"Issue","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a28e4016-1e5d-445c-9a71-59f8af3daf2a.record","label":"3➛Issue Record","reference":"x_0720_safety_issue","reference_display":"Issue","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Updated_1.current.opened_by","label":"Trigger➛Issue Record➛Opened by","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_0720_safety_issue","column_name":"opened_by"},{"name":"Updated_1.current","label":"Trigger➛Issue Record","reference":"x_0720_safety_issue","reference_display":"Issue","type":"reference","base_type":"reference","attributes":{}},{"name":"1bee89ea-a094-4fdd-9506-13921567bdd0.approval_state","label":"1➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <label_cache>[{"name":"Updated_1.current.number","label":"Trigger➛Issue Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_0720_safety_issue","column_name":"number"},{"name":"b47a081c-c5fd-4d22-a2f9-08495f293050.table_name","label":"6➛Issue Table","reference":"x_0720_safety_issue","reference_display":"Issue","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b47a081c-c5fd-4d22-a2f9-08495f293050.record","label":"6➛Issue Record","reference":"x_0720_safety_issue","reference_display":"Issue","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c8963958-2e80-4d97-8152-7dc98d42ac5f.table_name","label":"4➛Issue Table","reference":"x_0720_safety_issue","reference_display":"Issue","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c8963958-2e80-4d97-8152-7dc98d42ac5f.record","label":"4➛Issue Record","reference":"x_0720_safety_issue","reference_display":"Issue","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a28e4016-1e5d-445c-9a71-59f8af3daf2a.table_name","label":"3➛Issue Table","reference":"x_0720_safety_issue","reference_display":"Issue","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a28e4016-1e5d-445c-9a71-59f8af3daf2a.record","label":"3➛Issue Record","reference":"x_0720_safety_issue","reference_display":"Issue","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Updated_1.current.opened_by","label":"Trigger➛Issue Record➛Opened by","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_0720_safety_issue","column_name":"opened_by"},{"name":"Updated_1.current","label":"Trigger➛Issue Record","reference":"x_0720_safety_issue","reference_display":"Issue","type":"reference","base_type":"reference","attributes":{}},{"name":"1bee89ea-a094-4fdd-9506-13921567bdd0.approval_state","label":"1➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
         <master>true</master>
         <name>Safety Issue Approval</name>
         <natlang/>
@@ -1470,7 +1634,7 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>a8b867f62f982410b6cf309cf699b6c3</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -1479,11 +1643,11 @@
         <sys_scope display_value="Safety">8dfc9f7a2f182410b6cf309cf699b613</sys_scope>
         <sys_update_name/>
         <sys_updated_by>jbochnak</sys_updated_by>
-        <sys_updated_on>2020-11-09 19:59:29</sys_updated_on>
+        <sys_updated_on>2020-11-17 18:29:41</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow_snapshot>
     <sys_variable_value action="delete_multiple" query="document_key=a8b867f62f982410b6cf309cf699b6c3"/>
-    <sys_hub_flow_component action="delete_multiple" query="flow=a8b867f62f982410b6cf309cf699b6c3^sys_idNOT IN05b8a7f62f982410b6cf309cf699b61c,0efd63be2f982410b6cf309cf699b638,34b8a7f62f982410b6cf309cf699b609,4efd63be2f982410b6cf309cf699b64d,b8b8a7f62f982410b6cf309cf699b613"/>
+    <sys_hub_flow_component action="delete_multiple" query="flow=a8b867f62f982410b6cf309cf699b6c3^sys_idNOT IN05b8a7f62f982410b6cf309cf699b61c,0efd63be2f982410b6cf309cf699b638,2c2664ed2f602010b6cf309cf699b64e,34b8a7f62f982410b6cf309cf699b609,4efd63be2f982410b6cf309cf699b64d,b8b8a7f62f982410b6cf309cf699b613,e02664ed2f602010b6cf309cf699b649"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -1500,7 +1664,7 @@
         <sys_created_on>2020-11-09 19:36:27</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>05b8a7f62f982410b6cf309cf699b61c</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
@@ -1508,7 +1672,7 @@
         <sys_scope display_value="Safety">8dfc9f7a2f182410b6cf309cf699b613</sys_scope>
         <sys_update_name/>
         <sys_updated_by>jbochnak</sys_updated_by>
-        <sys_updated_on>2020-11-09 19:59:29</sys_updated_on>
+        <sys_updated_on>2020-11-17 18:29:41</sys_updated_on>
         <ui_id>a28e4016-1e5d-445c-9a71-59f8af3daf2a</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=05b8a7f62f982410b6cf309cf699b61c"/>
@@ -1586,14 +1750,14 @@
         <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
         <display_text/>
         <flow display_value="Safety Issue Approval">a8b867f62f982410b6cf309cf699b6c3</flow>
-        <order>5</order>
+        <order>6</order>
         <parent_ui_id>b1559f93-024e-4b70-800a-e8f544268884</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>jbochnak</sys_created_by>
         <sys_created_on>2020-11-09 19:59:28</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>0efd63be2f982410b6cf309cf699b638</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
@@ -1601,7 +1765,7 @@
         <sys_scope display_value="Safety">8dfc9f7a2f182410b6cf309cf699b613</sys_scope>
         <sys_update_name/>
         <sys_updated_by>jbochnak</sys_updated_by>
-        <sys_updated_on>2020-11-09 19:59:29</sys_updated_on>
+        <sys_updated_on>2020-11-17 18:29:41</sys_updated_on>
         <ui_id>b47a081c-c5fd-4d22-a2f9-08495f293050</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=0efd63be2f982410b6cf309cf699b638"/>
@@ -1670,6 +1834,47 @@
         <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
         <value/>
     </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Log">5bc1bcc6531003003bf1d9109ec587d4</action_type>
+        <action_type_parent display_value="Log">0e0ae8c2531003003bf1d9109ec587c8</action_type_parent>
+        <comment/>
+        <compiled_snapshot>5bc1bcc6531003003bf1d9109ec587d4</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Safety Issue Approval">a8b867f62f982410b6cf309cf699b6c3</flow>
+        <order>7</order>
+        <parent_ui_id>b1559f93-024e-4b70-800a-e8f544268884</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>jbochnak</sys_created_by>
+        <sys_created_on>2020-11-17 18:29:39</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>2c2664ed2f602010b6cf309cf699b64e</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Safety">8dfc9f7a2f182410b6cf309cf699b613</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jbochnak</sys_updated_by>
+        <sys_updated_on>2020-11-17 18:29:41</sys_updated_on>
+        <ui_id>ff822803-644c-4a3c-ad01-fb154f9bc2c3</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=2c2664ed2f602010b6cf309cf699b64e"/>
+    <sys_element_mapping action="delete_multiple" query="id=2c2664ed2f602010b6cf309cf699b64e"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>log_message</field>
+        <id>2c2664ed2f602010b6cf309cf699b64e</id>
+        <sys_created_by>jbochnak</sys_created_by>
+        <sys_created_on>2020-11-17 18:29:39</sys_created_on>
+        <sys_id>e82664ed2f602010b6cf309cf699b64f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jbochnak</sys_updated_by>
+        <sys_updated_on>2020-11-17 18:29:39</sys_updated_on>
+        <table>var__m_sys_hub_action_input_5bc1bcc6531003003bf1d9109ec587d4</table>
+        <value>Issue record {{Updated_1.current.number}} rejected</value>
+    </sys_element_mapping>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">29976f762f982410b6cf309cf699b657</block>
         <comment/>
@@ -1691,7 +1896,7 @@
         <sys_created_on>2020-11-09 19:36:26</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>34b8a7f62f982410b6cf309cf699b609</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
@@ -1699,7 +1904,7 @@
         <sys_scope display_value="Safety">8dfc9f7a2f182410b6cf309cf699b613</sys_scope>
         <sys_update_name/>
         <sys_updated_by>jbochnak</sys_updated_by>
-        <sys_updated_on>2020-11-09 19:59:29</sys_updated_on>
+        <sys_updated_on>2020-11-17 18:29:41</sys_updated_on>
         <ui_id>2c99b288-937b-488d-a0ef-bbd36f67ee2a</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1755,7 +1960,7 @@
         <flow display_value="Safety Issue Approval">a8b867f62f982410b6cf309cf699b6c3</flow>
         <inputs/>
         <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
-        <order>4</order>
+        <order>5</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id/>
@@ -1764,7 +1969,7 @@
         <sys_created_on>2020-11-09 19:59:28</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>4efd63be2f982410b6cf309cf699b64d</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
@@ -1772,7 +1977,7 @@
         <sys_scope display_value="Safety">8dfc9f7a2f182410b6cf309cf699b613</sys_scope>
         <sys_update_name/>
         <sys_updated_by>jbochnak</sys_updated_by>
-        <sys_updated_on>2020-11-09 19:59:29</sys_updated_on>
+        <sys_updated_on>2020-11-17 18:29:41</sys_updated_on>
         <ui_id>b1559f93-024e-4b70-800a-e8f544268884</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1794,7 +1999,7 @@
         <sys_created_on>2020-11-09 19:36:26</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>b8b8a7f62f982410b6cf309cf699b613</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
@@ -1802,7 +2007,7 @@
         <sys_scope display_value="Safety">8dfc9f7a2f182410b6cf309cf699b613</sys_scope>
         <sys_update_name/>
         <sys_updated_by>jbochnak</sys_updated_by>
-        <sys_updated_on>2020-11-09 19:59:29</sys_updated_on>
+        <sys_updated_on>2020-11-17 18:29:41</sys_updated_on>
         <ui_id>1bee89ea-a094-4fdd-9506-13921567bdd0</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=b8b8a7f62f982410b6cf309cf699b613"/>
@@ -1935,6 +2140,47 @@
         <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
         <value/>
     </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Log">5bc1bcc6531003003bf1d9109ec587d4</action_type>
+        <action_type_parent display_value="Log">0e0ae8c2531003003bf1d9109ec587c8</action_type_parent>
+        <comment/>
+        <compiled_snapshot>5bc1bcc6531003003bf1d9109ec587d4</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Safety Issue Approval">a8b867f62f982410b6cf309cf699b6c3</flow>
+        <order>4</order>
+        <parent_ui_id>2c99b288-937b-488d-a0ef-bbd36f67ee2a</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>jbochnak</sys_created_by>
+        <sys_created_on>2020-11-17 18:29:39</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>e02664ed2f602010b6cf309cf699b649</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Safety">8dfc9f7a2f182410b6cf309cf699b613</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jbochnak</sys_updated_by>
+        <sys_updated_on>2020-11-17 18:29:41</sys_updated_on>
+        <ui_id>4e09417a-2032-4218-9fba-80119c627497</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=e02664ed2f602010b6cf309cf699b649"/>
+    <sys_element_mapping action="delete_multiple" query="id=e02664ed2f602010b6cf309cf699b649"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>log_message</field>
+        <id>e02664ed2f602010b6cf309cf699b649</id>
+        <sys_created_by>jbochnak</sys_created_by>
+        <sys_created_on>2020-11-17 18:29:39</sys_created_on>
+        <sys_id>a02664ed2f602010b6cf309cf699b64a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jbochnak</sys_updated_by>
+        <sys_updated_on>2020-11-17 18:29:39</sys_updated_on>
+        <table>var__m_sys_hub_action_input_5bc1bcc6531003003bf1d9109ec587d4</table>
+        <value>Issue record  {{Updated_1.current.number}}  approved</value>
+    </sys_element_mapping>
     <sys_hub_trigger_instance action="delete_multiple" query="flow=a8b867f62f982410b6cf309cf699b6c3^sys_idNOT IN89b8a7f62f982410b6cf309cf699b623"/>
     <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
         <comment/>
@@ -1947,7 +2193,7 @@
         <sys_created_on>2020-11-09 19:36:27</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>89b8a7f62f982410b6cf309cf699b623</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
@@ -1955,7 +2201,7 @@
         <sys_scope display_value="Safety">8dfc9f7a2f182410b6cf309cf699b613</sys_scope>
         <sys_update_name/>
         <sys_updated_by>jbochnak</sys_updated_by>
-        <sys_updated_on>2020-11-09 19:59:31</sys_updated_on>
+        <sys_updated_on>2020-11-17 18:29:44</sys_updated_on>
         <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -2087,7 +2333,7 @@
         <sys_created_on>2020-11-09 19:36:26</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>38b867f62f982410b6cf309cf699b6fb</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
@@ -2095,7 +2341,7 @@
         <sys_scope display_value="Safety">8dfc9f7a2f182410b6cf309cf699b613</sys_scope>
         <sys_update_name/>
         <sys_updated_by>jbochnak</sys_updated_by>
-        <sys_updated_on>2020-11-09 19:59:28</sys_updated_on>
+        <sys_updated_on>2020-11-17 18:29:40</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2170,7 +2416,7 @@
         <sys_created_on>2020-11-09 19:36:25</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>64b867f62f982410b6cf309cf699b6c7</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
@@ -2178,7 +2424,7 @@
         <sys_scope display_value="Safety">8dfc9f7a2f182410b6cf309cf699b613</sys_scope>
         <sys_update_name/>
         <sys_updated_by>jbochnak</sys_updated_by>
-        <sys_updated_on>2020-11-09 19:59:28</sys_updated_on>
+        <sys_updated_on>2020-11-17 18:29:40</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2194,7 +2440,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FD56fd63be9a9824100534b5561365245e,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDb82664ede46020102a02addd18bc746f,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -2253,7 +2499,7 @@
         <sys_created_on>2020-11-09 19:36:26</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>fcb867f62f982410b6cf309cf699b6f0</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
@@ -2261,7 +2507,7 @@
         <sys_scope display_value="Safety">8dfc9f7a2f182410b6cf309cf699b613</sys_scope>
         <sys_update_name/>
         <sys_updated_by>jbochnak</sys_updated_by>
-        <sys_updated_on>2020-11-09 19:59:28</sys_updated_on>
+        <sys_updated_on>2020-11-17 18:29:40</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2273,7 +2519,7 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
-    <sys_hub_action_instance action="delete_multiple" query="flow=a8b867f62f982410b6cf309cf699b6c3^sys_idNOT IN05b8a7f62f982410b6cf309cf699b61c,0efd63be2f982410b6cf309cf699b638,b8b8a7f62f982410b6cf309cf699b613"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=a8b867f62f982410b6cf309cf699b6c3^sys_idNOT IN05b8a7f62f982410b6cf309cf699b61c,0efd63be2f982410b6cf309cf699b638,2c2664ed2f602010b6cf309cf699b64e,b8b8a7f62f982410b6cf309cf699b613,e02664ed2f602010b6cf309cf699b649"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -2290,7 +2536,7 @@
         <sys_created_on>2020-11-09 19:36:27</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>05b8a7f62f982410b6cf309cf699b61c</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
@@ -2298,7 +2544,7 @@
         <sys_scope display_value="Safety">8dfc9f7a2f182410b6cf309cf699b613</sys_scope>
         <sys_update_name/>
         <sys_updated_by>jbochnak</sys_updated_by>
-        <sys_updated_on>2020-11-09 19:59:29</sys_updated_on>
+        <sys_updated_on>2020-11-17 18:29:41</sys_updated_on>
         <ui_id>a28e4016-1e5d-445c-9a71-59f8af3daf2a</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=05b8a7f62f982410b6cf309cf699b61c"/>
@@ -2376,14 +2622,14 @@
         <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
         <display_text/>
         <flow display_value="Safety Issue Approval">a8b867f62f982410b6cf309cf699b6c3</flow>
-        <order>5</order>
+        <order>6</order>
         <parent_ui_id>b1559f93-024e-4b70-800a-e8f544268884</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>jbochnak</sys_created_by>
         <sys_created_on>2020-11-09 19:59:28</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>0efd63be2f982410b6cf309cf699b638</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
@@ -2391,7 +2637,7 @@
         <sys_scope display_value="Safety">8dfc9f7a2f182410b6cf309cf699b613</sys_scope>
         <sys_update_name/>
         <sys_updated_by>jbochnak</sys_updated_by>
-        <sys_updated_on>2020-11-09 19:59:29</sys_updated_on>
+        <sys_updated_on>2020-11-17 18:29:41</sys_updated_on>
         <ui_id>b47a081c-c5fd-4d22-a2f9-08495f293050</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=0efd63be2f982410b6cf309cf699b638"/>
@@ -2463,6 +2709,47 @@
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
+        <action_type display_value="Log">5bc1bcc6531003003bf1d9109ec587d4</action_type>
+        <action_type_parent display_value="Log">0e0ae8c2531003003bf1d9109ec587c8</action_type_parent>
+        <comment/>
+        <compiled_snapshot>5bc1bcc6531003003bf1d9109ec587d4</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Safety Issue Approval">a8b867f62f982410b6cf309cf699b6c3</flow>
+        <order>7</order>
+        <parent_ui_id>b1559f93-024e-4b70-800a-e8f544268884</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>jbochnak</sys_created_by>
+        <sys_created_on>2020-11-17 18:29:39</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>2c2664ed2f602010b6cf309cf699b64e</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Safety">8dfc9f7a2f182410b6cf309cf699b613</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jbochnak</sys_updated_by>
+        <sys_updated_on>2020-11-17 18:29:41</sys_updated_on>
+        <ui_id>ff822803-644c-4a3c-ad01-fb154f9bc2c3</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=2c2664ed2f602010b6cf309cf699b64e"/>
+    <sys_element_mapping action="delete_multiple" query="id=2c2664ed2f602010b6cf309cf699b64e"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>log_message</field>
+        <id>2c2664ed2f602010b6cf309cf699b64e</id>
+        <sys_created_by>jbochnak</sys_created_by>
+        <sys_created_on>2020-11-17 18:29:39</sys_created_on>
+        <sys_id>e82664ed2f602010b6cf309cf699b64f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jbochnak</sys_updated_by>
+        <sys_updated_on>2020-11-17 18:29:39</sys_updated_on>
+        <table>var__m_sys_hub_action_input_5bc1bcc6531003003bf1d9109ec587d4</table>
+        <value>Issue record {{Updated_1.current.number}} rejected</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
         <action_type display_value="Ask For Approval">f8f2e9920b10030085c083eb37673abd</action_type>
         <action_type_parent display_value="Ask For Approval">bae0a1120b10030085c083eb37673a92</action_type_parent>
         <comment/>
@@ -2476,7 +2763,7 @@
         <sys_created_on>2020-11-09 19:36:26</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>b8b8a7f62f982410b6cf309cf699b613</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
@@ -2484,7 +2771,7 @@
         <sys_scope display_value="Safety">8dfc9f7a2f182410b6cf309cf699b613</sys_scope>
         <sys_update_name/>
         <sys_updated_by>jbochnak</sys_updated_by>
-        <sys_updated_on>2020-11-09 19:59:29</sys_updated_on>
+        <sys_updated_on>2020-11-17 18:29:41</sys_updated_on>
         <ui_id>1bee89ea-a094-4fdd-9506-13921567bdd0</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=b8b8a7f62f982410b6cf309cf699b613"/>
@@ -2617,6 +2904,47 @@
         <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
         <value/>
     </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Log">5bc1bcc6531003003bf1d9109ec587d4</action_type>
+        <action_type_parent display_value="Log">0e0ae8c2531003003bf1d9109ec587c8</action_type_parent>
+        <comment/>
+        <compiled_snapshot>5bc1bcc6531003003bf1d9109ec587d4</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Safety Issue Approval">a8b867f62f982410b6cf309cf699b6c3</flow>
+        <order>4</order>
+        <parent_ui_id>2c99b288-937b-488d-a0ef-bbd36f67ee2a</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>jbochnak</sys_created_by>
+        <sys_created_on>2020-11-17 18:29:39</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>e02664ed2f602010b6cf309cf699b649</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Safety">8dfc9f7a2f182410b6cf309cf699b613</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>jbochnak</sys_updated_by>
+        <sys_updated_on>2020-11-17 18:29:41</sys_updated_on>
+        <ui_id>4e09417a-2032-4218-9fba-80119c627497</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=e02664ed2f602010b6cf309cf699b649"/>
+    <sys_element_mapping action="delete_multiple" query="id=e02664ed2f602010b6cf309cf699b649"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>log_message</field>
+        <id>e02664ed2f602010b6cf309cf699b649</id>
+        <sys_created_by>jbochnak</sys_created_by>
+        <sys_created_on>2020-11-17 18:29:39</sys_created_on>
+        <sys_id>a02664ed2f602010b6cf309cf699b64a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jbochnak</sys_updated_by>
+        <sys_updated_on>2020-11-17 18:29:39</sys_updated_on>
+        <table>var__m_sys_hub_action_input_5bc1bcc6531003003bf1d9109ec587d4</table>
+        <value>Issue record  {{Updated_1.current.number}}  approved</value>
+    </sys_element_mapping>
     <sys_hub_flow_logic action="delete_multiple" query="flow=a8b867f62f982410b6cf309cf699b6c3^sys_idNOT IN34b8a7f62f982410b6cf309cf699b609,4efd63be2f982410b6cf309cf699b64d"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">29976f762f982410b6cf309cf699b657</block>
@@ -2639,7 +2967,7 @@
         <sys_created_on>2020-11-09 19:36:26</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>34b8a7f62f982410b6cf309cf699b609</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
@@ -2647,7 +2975,7 @@
         <sys_scope display_value="Safety">8dfc9f7a2f182410b6cf309cf699b613</sys_scope>
         <sys_update_name/>
         <sys_updated_by>jbochnak</sys_updated_by>
-        <sys_updated_on>2020-11-09 19:59:29</sys_updated_on>
+        <sys_updated_on>2020-11-17 18:29:41</sys_updated_on>
         <ui_id>2c99b288-937b-488d-a0ef-bbd36f67ee2a</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2703,7 +3031,7 @@
         <flow display_value="Safety Issue Approval">a8b867f62f982410b6cf309cf699b6c3</flow>
         <inputs/>
         <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
-        <order>4</order>
+        <order>5</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id/>
@@ -2712,7 +3040,7 @@
         <sys_created_on>2020-11-09 19:59:28</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>4efd63be2f982410b6cf309cf699b64d</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
@@ -2720,7 +3048,7 @@
         <sys_scope display_value="Safety">8dfc9f7a2f182410b6cf309cf699b613</sys_scope>
         <sys_update_name/>
         <sys_updated_by>jbochnak</sys_updated_by>
-        <sys_updated_on>2020-11-09 19:59:29</sys_updated_on>
+        <sys_updated_on>2020-11-17 18:29:41</sys_updated_on>
         <ui_id>b1559f93-024e-4b70-800a-e8f544268884</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
